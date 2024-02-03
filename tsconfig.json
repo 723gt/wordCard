@@ -34,7 +34,7 @@
     ".next/types/**/*.ts",
     "out/types/**/*.ts",
     "build/types/**/*.ts"
-  ],
+, "app/word_card/[mode]/.page.tsx", "app/word_card/.page.tsx"  ],
   "exclude": [
     "node_modules"
   ]

@@ -1,6 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  distDir: "build"
+  experimental: {
+    appDir: true,
+  },
+  output: 'export',
+  // distDir: "build"
+  // distDir: "out"
 };
 
 export default nextConfig;
