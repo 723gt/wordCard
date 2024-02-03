@@ -18,7 +18,6 @@ type Params = {
 
 type Props = {
   params: Params
-  searchParams: object
 }
 
 export default function WordCard(props: Props){
