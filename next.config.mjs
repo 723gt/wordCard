@@ -4,6 +4,7 @@ const nextConfig = {
     appDir: true,
   },
   output: 'export',
+  basePath: "/wordCard"
   // distDir: "build"
   // distDir: "out"
 };
